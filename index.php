@@ -15,6 +15,9 @@
 
     <header>
         <a href="" class="brand">teste</a>
+        <div class="menu-btn">
+            
+        </div>
 
         <div class="navigation">
             <div class="navigation-itens">
@@ -25,6 +28,25 @@
             </div>
         </div>
     </header>
+
+    <section class="home">
+        <div class="content">
+            <h1>Wonderful.<br><span>Island</span></h1>
+            <p>Agora você pode navegar com privacidade, e as outras pessoas que usarem este dispositivo não verão suas atividades. No entanto, os downloads, favoritos e itens da Lista de leitura ainda serão salvos. Saiba mais</p>
+            <a href="">Ler mais</a>
+        </div>
+        <div class="meida-icons">
+            <a href="">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+    </section>
 
 </body>
 
