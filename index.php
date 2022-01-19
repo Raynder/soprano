@@ -22,9 +22,9 @@
 
         <div class="navigation">
             <div class="navigation-itens">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Explore</a>
+                <a href="">Serviços</a>
+                <a href="">Sobre</a>
+                <a href="">Videos</a>
                 <a href="">Contato</a>
             </div>
         </div>
@@ -32,11 +32,13 @@
 
     <section class="home">
         <video class="video-slide active" src="1.mp4" autoplay muted loop></video>
-        <video class="video-slide" src="1.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="2.mp4" autoplay muted loop></video>
 
         <div class="content">
-            <h1>Wonderful.<br><span>Island</span></h1>
-            <p>Agora você pode navegar com privacidade, e as outras pessoas que usarem este dispositivo não verão suas atividades. No entanto, os downloads, favoritos e itens da Lista de leitura ainda serão salvos. Saiba mais</p>
+            <h1>Casamentos <!--.<br><span>Island</span> --></h1>
+            <p>Somos um grupo musical especializado em cerimônias de casamento, receptivos, noivados e bodas.<br>
+
+Nossa maior missão é eternizar a sua história e despertar as emoções.</p>
             <a href="">Ler mais</a>
         </div>
         <div class="meida-icons">
