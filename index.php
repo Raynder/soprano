@@ -15,7 +15,7 @@
 <body>
 
     <header>
-        <a href="" class="brand">teste</a>
+        <a href="" class="brand">Soprano</a>
         <div class="menu-btn">
 
         </div>
@@ -35,10 +35,12 @@
         <video class="video-slide" src="2.mp4" autoplay muted loop></video>
 
         <div class="content">
-            <h1>Casamentos <!--.<br><span>Island</span> --></h1>
+            <h1>Casamentos
+                <!--.<br><span>Island</span> -->
+            </h1>
             <p>Somos um grupo musical especializado em cerimônias de casamento, receptivos, noivados e bodas.<br>
 
-Nossa maior missão é eternizar a sua história e despertar as emoções.</p>
+                Nossa maior missão é eternizar a sua história e despertar as emoções.</p>
             <a href="">Ler mais</a>
         </div>
         <div class="meida-icons">
@@ -74,25 +76,16 @@ Nossa maior missão é eternizar a sua história e despertar as emoções.</p>
         const btns = document.querySelectorAll('.nav-btn');
         const slides = document.querySelectorAll('.video-slide');
 
-        var sliderNav = function(manual){
+        var sliderNav = function(manual) {
             btns.forEach((btn) => {
                 btn.classList.remove('active');
             });
             slides.forEach((slide) => {
                 slide.classList.remove('active');
-                slide.classList.remove('trans');
             });
 
             btns[manual].classList.add('active');
             slides[manual].classList.add('active');
-            setTimeout(() => {
-                slides[manual].classList.add('trans');
-                slides[manual].classList.add('active2');
-            }, 300);
-            setTimeout(() => {
-                slides[manual].classList.remove('active2');
-                slides[manual].classList.add('active');
-            }, 1200);
         }
 
         btns.forEach((btn, index) => {
